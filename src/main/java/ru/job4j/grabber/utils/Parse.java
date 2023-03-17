@@ -1,4 +1,6 @@
-package ru.job4j.grabber;
+package ru.job4j.grabber.utils;
+
+import ru.job4j.grabber.model.Post;
 
 import java.util.List;
 
