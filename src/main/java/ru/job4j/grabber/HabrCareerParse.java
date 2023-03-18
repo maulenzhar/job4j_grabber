@@ -24,6 +24,18 @@ public class HabrCareerParse implements Parse {
         this.dateTimeParser = dateTimeParser;
     }
 
+    public DateTimeParser getDateTimeParser() {
+        return dateTimeParser;
+    }
+
+    public static String getSourceLink() {
+        return SOURCE_LINK;
+    }
+
+    public static String getPageLink() {
+        return PAGE_LINK;
+    }
+
     @Override
     public List<Post> list(String link) {
         List<Post> posts = new ArrayList<>();
